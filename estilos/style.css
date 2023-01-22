@@ -28,5 +28,31 @@ section#telefone{
     height: 627px;
     width: 311px;
     background: url(../imagens/frame-iphone.png) no-repeat;
-    
+}
+
+#tela{
+    position: relative;
+    top: 80.8px;
+    left: 22.5px;
+    height: 470.9px;
+    width: 265.5px;
+}
+
+#rsocial{
+    text-align: right;
+}
+
+#rsocial img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.349);
+    box-sizing: border-box;
+}
+
+#rsocial img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.596);
+    translate: -3px -3px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.349);
+    transition: .1s;
 }
